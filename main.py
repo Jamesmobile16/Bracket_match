@@ -57,12 +57,14 @@ def check_item(str_):
         print('Несбалансировано')
 
 
-check_item(str_1)
-check_item(str_2)
-check_item(str_3)
-check_item(str_4)
-check_item(str_5)
-check_item(str_6)
+if __name__ == '__main__':
+
+    check_item(str_1)
+    check_item(str_2)
+    check_item(str_3)
+    check_item(str_4)
+    check_item(str_5)
+    check_item(str_6)
 
 
 
